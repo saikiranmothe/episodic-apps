@@ -4,8 +4,8 @@ package com.example.shows;
  * Created by saikiranmothe on 5/18/17.
  */
 
-import com.example.shows.Show;
 import com.example.shows.ShowRepository;
+import com.example.shows.Show;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Before;
 import org.junit.Test;
@@ -23,9 +23,7 @@ import javax.transaction.Transactional;
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.notNullValue;
-import static org.junit.Assert.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
