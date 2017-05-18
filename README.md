@@ -1,4 +1,15 @@
- Episodic APPS - Spring Applications
 
+
+# Episodic APPS - Spring Applications
+
+
+# EPISODIC SHOWS - shows microservice 
+
+
+
+
+
+--
 MYSQL
 MONGO 
+--
