@@ -1,3 +1,7 @@
+/**
+ * Created by saikiranmothe on 5/18/17.
+ */
+
 package com.example.shows;
 
 import com.example.users.User;
@@ -25,12 +29,15 @@ public class ShowsController {
 
         showRespository.findAll()
                 .forEach(shows::add);
+
         return shows;
     }
 
     @PostMapping("/shows")
     public Show createShow(@RequestBody Show show) {
+
         showRespository.save(show);
+
         return show;
     }
 }

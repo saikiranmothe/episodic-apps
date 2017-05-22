@@ -10,5 +10,4 @@ import com.example.shows.Show;
 
 
 public interface ShowRepository extends CrudRepository<Show, Long> {
-
 }
